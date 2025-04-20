@@ -1,0 +1,115 @@
+.chat-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .chat-header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    flex: 1;
+    color: #222;
+  }
+  
+  .director-header-img {
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .chat-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* adjust as needed */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  
+  .chat-window {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-color: black
+  }
+  
+  .message-bubble {
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 18px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .user-msg {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .ai-msg {
+    background-color: #e5e5ea;
+    color: black;
+    align-self: flex-start;
+    margin-right: auto;
+  }
+  
+  .chat-input-area {
+    display: flex;
+    padding: 0.75rem;
+    gap: 0.5rem;
+    border-top: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* .film-director {
+    position: static;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    z-index: 9999;
+    animation: bounce 2s infinite;
+  }
+  
+  .film-director img {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  } */
